@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    background-image: url("avalanche_lake.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    border-radius: 10px;
+}
+
+/* Column Styles */
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 20%;
+    float: right;
+}
+
+.column.middle {
+    width: 50%;
+    background-color: darkgray;
+}
+
+/* Tables Styles */
+
+table {
+    width: 300px;
+}
+
+td {
+    height: auto;
+    text-align: center;
+}
+
+/* Navigation Styles */
+
+nav {
+    background-color: darkgrey;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: cyan;
+}
+
+/* Other Styles */
+
+img#meet_picture {
+    width: 569px;
+    height: auto;
+    border-radius: 10px;
+}
